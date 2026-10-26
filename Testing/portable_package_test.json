@@ -1,0 +1,24 @@
+{
+  "source_zip_crc": "passed",
+  "clean_validation_exit": 0,
+  "clean_chart_generation_exit": 0,
+  "regenerated_chart_hashes": {
+    "01_link_failure.png": true,
+    "01_link_failure.svg": true,
+    "02_link_ratios.png": true,
+    "02_link_ratios.svg": true,
+    "03_router_failure.png": true,
+    "03_router_failure.svg": true,
+    "04_route_metrics.png": true,
+    "04_route_metrics.svg": true,
+    "05_restoration.png": true,
+    "05_restoration.svg": true,
+    "06_evidence_coverage.png": true,
+    "06_evidence_coverage.svg": true
+  },
+  "offline_gallery_images": 37,
+  "page_errors": [],
+  "runtime_remote_requests": [],
+  "responsive_360px": true,
+  "pass": true
+}

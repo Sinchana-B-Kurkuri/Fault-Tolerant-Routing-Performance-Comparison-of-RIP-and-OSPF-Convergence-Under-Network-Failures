@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Offline evidence replay of recorded RIP and OSPF fault-tolerance experiments, with clearly labelled illustrative estimates.">
+  <title>F1 Team21 · RIP &amp; OSPF Evidence Lab</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="vendor/chart.umd.min.js"></script><script defer src="js/data.js"></script><script defer src="js/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap"><a class="brand" href="#overview"><span class="brand-icon" aria-hidden="true">↔</span><span>ROUTING LAB<small>F1 / TEAM 21</small></span></a>
+    <nav aria-label="Main navigation"><a href="#topology">Topology</a><a href="#player">Replay</a><a href="#analysis">Analysis</a><a href="#evidence">Evidence</a><a href="#methodology">Method</a></nav>
+    <button id="theme-toggle" class="icon-button" aria-label="Switch color theme">◐</button>
+  </div>
+  <p class="honesty">This dashboard replays experiments recorded in Cisco Packet Tracer. It does not run a live simulation. Values marked “Assumed” are estimates, not measurements.</p>
+</header>
+<main id="main">
+<section id="overview" class="hero section-wrap">
+  <div class="eyebrow"><span class="status-dot"></span> BCSE308P / FALL SEMESTER 2026-27 / OFFLINE EVIDENCE</div>
+  <h1>Fault-Tolerant Routing:<br><span>Performance Comparison of RIP and OSPF Convergence Under Network Failures</span></h1>
+  <p class="hero-description">One ring topology. Two routing protocols. A transparent view of recorded connectivity recovery, route changes, and the estimates that complete the four-link comparison.</p>
+  <div class="hero-actions"><a class="button primary" href="#player">Explore the experiment <span aria-hidden="true">↗</span></a><button id="start-tour" class="button secondary">Start presenter tour</button><span class="small-note">No server. No internet. Open this file.</span></div>
+  <div class="headline-grid">
+    <article><span class="eyebrow">R1–R2 LINK FAILURE</span><div class="big-value"><span class="rip-text">≈26<span>s</span></span><span class="versus">/</span><span class="ospf-text">≈7<span>s</span></span></div><p>RIP / OSPF OCRT</p><span class="badge measured">Recorded evidence (Packet Tracer) · single run</span></article>
+    <article><span class="eyebrow">FOUR-LINK DESCRIPTIVE AVERAGE</span><div class="big-value"><span class="rip-text">25.75<span>s</span></span><span class="versus">/</span><span class="ospf-text">7.00<span>s</span></span></div><p>Includes three Assumed link estimates</p><span class="badge assumed">Assumed inputs included · not a trial average</span></article>
+    <article class="definition"><span class="eyebrow">WHAT WE MEASURE</span><h2>Observed Connectivity<br>Recovery Time</h2><p>External-stopwatch time from the failure trigger until ping replies become consistently successful again. End-to-end recovery includes more than the routing protocol alone.</p><a href="#methodology">Read the measurement limits ↗</a></article>
+  </div>
+  <div class="team-line"><span><b>Harshith Reddy V</b> · 24BCE2479<br>B.Tech Computer Science and Engineering</span><span><b>Sinchana B Kurkuri</b> · 24BDS0352<br>B.Tech Computer Science and Engineering (Data Science)</span><span>Faculty<br><b>Dr. Sreethar S</b><br>Associate Professor Grade 1</span></div>
+  <details class="overview-scope"><summary>Problem, objectives and scope</summary><p>A single component failure can interrupt end-to-end traffic until routing adapts. The objectives are to compare recorded RIPv2 and OSPF behaviour on identical addressing and topology, verify alternate and restored routes, and present the evidence with its limitations. The work covers a four-router Packet Tracer ring, a recorded link failure, R4 failure and link restoration. Three additional link timings are illustrative estimates. No new routing protocol was developed.</p></details>
+</section>
+
+<section id="topology" class="section-wrap">
+  <div class="section-heading"><div><span class="eyebrow">01 / THE TESTBED</span><h2>A ring with another way around</h2></div><p>4 Cisco 2911 routers · 4 Cisco 2960 switches · 4 PC-PTs<br>Click any device to inspect its addressing.</p></div>
+  <div class="topology-layout"><div class="surface"><div id="topology-svg" class="svg-scroll"></div><p class="illustrative">Illustrative animation – not simulation evidence. Diagram based on the verified ring and addressing plan.</p></div><aside class="surface device-panel" id="device-panel" aria-live="polite"></aside></div>
+  <details class="recorded-topology"><summary>View original Packet Tracer topology evidence · E06</summary><figure><img id="topology-evidence" alt="Recorded Packet Tracer topology with R1 through R4, four switches and four PCs"><figcaption>Recorded evidence (Packet Tracer) · E06. Initial topology view; interface IP assignments are verified separately from the saved files.</figcaption></figure></details>
+</section>
+
+<section id="player" class="section-wrap">
+  <div class="section-heading"><div><span class="eyebrow">02 / EXPERIMENT PLAYER</span><h2>Follow the recorded route change</h2></div><p>Choose a case, then step through its evidence.<br>Each state preserves the source and its limits.</p></div>
+  <div class="surface player-controls"><fieldset><legend>Protocol</legend><div class="segmented"><button data-protocol="RIP" aria-pressed="true">RIP</button><button data-protocol="OSPF" aria-pressed="false">OSPF</button></div></fieldset><label>Scenario<select id="scenario"><option value="normal">Normal operation</option><option value="link" selected>Link failure</option><option value="router">R4 router failure</option><option value="restore">R1–R2 restoration</option></select></label><label id="link-control">Failed link<select id="failed-link"><option>R1–R2</option><option>R2–R3</option><option>R3–R4</option><option>R4–R1</option></select></label><div class="replay-key"><span class="key-line green"></span> Selected path <span class="key-line red"></span> Failed element</div></div>
+  <div id="stepper" class="stepper" aria-label="Experiment steps"></div>
+  <div class="player-layout"><div class="surface"><div id="player-svg" class="svg-scroll"></div><p class="illustrative">Illustrative animation – not simulation evidence</p></div><div id="player-info" class="surface player-info" aria-live="polite"></div></div>
+  <div class="path-comparison"><article class="surface"><h3>Before</h3><div id="before-svg" class="mini-svg"></div><p id="before-path"></p></article><article class="surface"><h3>After</h3><div id="after-svg" class="mini-svg"></div><p id="after-path"></p></article></div>
+  <div id="player-gallery" class="gallery-grid compact-gallery"></div>
+</section>
+
+<section id="analysis" class="section-wrap">
+  <div class="section-heading"><div><span class="eyebrow">03 / PERFORMANCE COMPARISON</span><h2>Compare the values. Keep their context.</h2></div><label class="toggle"><input type="checkbox" id="show-assumed" checked><span>Show assumed values</span></label></div>
+  <p class="analysis-note">Solid bars: recorded R1–R2 timings, single run. Hatched bars: <b>Assumed (estimated – not measured)</b>. The four-link average is descriptive arithmetic across one measured link and three assumed estimates, with no repeated-trial inference.</p>
+  <div class="chart-grid">
+    <article class="surface chart-card"><h3>Link-failure recovery</h3><p>RIP versus OSPF, all supplied link cases</p><div class="chart-box"><canvas id="link-chart" aria-label="Link failure timings, one measured and three assumed links" role="img"></canvas></div><div id="link-table" class="table-scroll"></div></article>
+    <article class="surface chart-card"><h3>Per-link time ratio</h3><p>RIP time divided by OSPF time; input status retained</p><div class="chart-box"><canvas id="ratio-chart" aria-label="Per-link RIP to OSPF time ratios" role="img"></canvas></div><div id="ratio-table" class="table-scroll"></div></article>
+    <article class="surface chart-card"><h3>R4 failure: unlike runs</h3><p>RIP later run / OSPF earlier run. Not directly comparable.</p><div class="chart-box"><canvas id="router-chart" aria-label="RIP later-run recovery; OSPF no measurable recovery time" role="img"></canvas></div><div class="missing-note">OSPF: No loss observed – OCRT not measurable. There is no zero-valued OSPF measurement.</div><div id="router-table" class="table-scroll"></div></article>
+    <article class="surface chart-card"><h3>Route metrics</h3><p>Separate panels for RIP hop metric and OSPF cost</p><div class="metric-charts"><div><h4>RIP · hop metric</h4><canvas id="rip-metric-chart" role="img" aria-label="RIP route metrics before and after"></canvas></div><div><h4>OSPF · cost</h4><canvas id="ospf-metric-chart" role="img" aria-label="OSPF route costs before and after"></canvas></div></div><div id="metric-table" class="table-scroll"></div></article>
+    <article class="surface chart-card"><h3>Restoration observation</h3><p>OSPF ≈11 seconds to TTL/path change; a distinct interval</p><div class="chart-box"><canvas id="restore-chart" role="img" aria-label="OSPF restoration path-change interval; RIP timing missing"></canvas></div><div class="missing-note">RIP: not reliably measured. Both original routes returned. Image E22 remains unconfirmed.</div><div id="restore-table" class="table-scroll"></div></article>
+    <article class="surface chart-card"><h3>Evidence coverage</h3><p>What is measured, estimated or only partly recorded</p><div class="chart-box"><canvas id="coverage-chart" role="img" aria-label="Evidence coverage matrix by experiment and protocol"></canvas></div><div id="coverage-table" class="table-scroll"></div><p class="small-note">Assumed (estimated – not measured) cases have no timed run or evidence association. Partial cases retain their recorded qualitative observations.</p><div id="summary-statistics" class="summary-statistics"></div></article>
+  </div>
+  <details class="surface calculations"><summary>Calculations and source policy</summary><p>Per-link reduction = (RIP − OSPF) / RIP × 100. Time ratio = RIP / OSPF. Four-link arithmetic average = sum of the four supplied values / four links. Reduction of averages = (RIP average − OSPF average) / RIP average × 100. These are descriptive comparisons; three link inputs are Assumed (estimated – not measured). They do not establish statistical significance or repeatability. No standard deviation, error bars or loss percentages are fabricated.</p></details>
+</section>
+
+<section id="evidence" class="section-wrap">
+  <div class="section-heading"><div><span class="eyebrow">04 / EVIDENCE LIBRARY</span><h2>Every image has a traceable source</h2></div><p>37 original, lossless images from CNPj34.docx.<br>Caption context is disclosed; E22 stays flagged.</p></div>
+  <div class="filter-row"><label>Protocol<select id="gallery-protocol"><option value="all">All protocols</option><option value="RIP">RIP</option><option value="OSPF">OSPF</option><option value="Topology">Topology</option></select></label><label>Experiment<select id="gallery-experiment"><option value="all">All experiments</option><option value="baseline">Baseline</option><option value="link_failure">Link failure</option><option value="router_failure">Router failure</option><option value="restoration">Restoration / unconfirmed</option></select></label><span id="gallery-count" aria-live="polite"></span></div>
+  <div id="evidence-gallery" class="gallery-grid"></div>
+</section>
+
+<section id="theory" class="section-wrap">
+  <div class="section-heading"><div><span class="eyebrow">05 / PROTOCOL THEORY</span><h2>Different ways to learn a route</h2></div><p>General protocol knowledge, separate from measured results.<br>Defaults below are not timer measurements from this experiment.</p></div>
+  <div class="theory-grid"><article class="surface"><span class="protocol-label rip-text">RIPv2</span><h3>Distance vector</h3><p>Routers exchange distances to networks. RIP uses hop count, supports up to 15 hops, and uses 16 as infinity. Periodic and triggered updates help distribute changes [1,3].</p><dl><dt>Typical Cisco IOS timers [4]</dt><dd>Update 30 s · invalid 180 s · hold-down 180 s · flush 240 s</dd><dt>Administrative distance</dt><dd>120 in the recorded route output</dd><dt>RIPv2 multicast</dt><dd>224.0.0.9 [1]</dd><dt>Saved configuration</dt><dd>Version 2, no auto-summary, network 10.0.0.0 and the local LAN</dd></dl></article><article class="surface"><span class="protocol-label ospf-text">OSPFv2</span><h3>Link state</h3><p>Routers form adjacencies, flood LSAs, build an LSDB and calculate shortest paths using SPF/Dijkstra. OSPF uses cumulative cost [2].</p><dl><dt>Typical Ethernet Hello / Dead [5]</dt><dd>10 / 40 s; local interface-down detection can act without waiting for Dead expiry</dd><dt>Administrative distance</dt><dd>110 in the recorded route output</dd><dt>Saved configuration</dt><dd>Process 1, area 0; network 10.0.0.0 0.255.255.255; local LAN /24</dd><dt>Observed neighbour IDs</dt><dd>192.168.2.1 and 192.168.4.1 in E27; no explicit router-id commands saved</dd></dl></article></div>
+  <p class="theory-caveat">OSPF’s event-driven link-state processing is consistent with the shorter recorded link-failure OCRT. This experiment does not isolate timer, SPF, ARP or simulator contributions, so it cannot prove the cause of the difference.</p>
+</section>
+
+<section id="methodology" class="section-wrap">
+  <div class="section-heading"><div><span class="eyebrow">06 / METHOD &amp; LIMITATIONS</span><h2>Evidence is useful when its limits are visible</h2></div></div>
+  <div class="method-grid"><article class="surface"><h3>Recorded procedure</h3><ol><li>Use the same ring, addressing and traffic pair for the protocol comparison.</li><li>Verify the route, then start continuous PC ping.</li><li>Trigger the failure and start the external stopwatch.</li><li>Stop at the first reply followed by another consecutive successful reply.</li><li>Record the route, preserve the ping evidence, then restore the component.</li></ol><p>Exp A: PC1→PC2, R1 G0/0 shutdown. Exp B: PC1→PC3, R4 off. Exp C: R1–R2 restored. The saved files were inspected read-only; no experiments were rerun for this dashboard.</p></article><article class="surface"><h3>What the data can support</h3><p>R1–R2 was timed in Packet Tracer; the values for the other three links are estimates assumed from the R1–R2 observations and the expected behaviour of the protocols, because OCRT differs from run to run and those links were not individually timed.</p><p>Exp B compares unlike earlier/later runs. The opposite-LAN paths are equal-cost via R2 and R4. Forwarding already via R2 could explain OSPF’s no-loss observation, but that is an unverified hypothesis.</p><p>No completed ping summaries or repeated-trial datasets are available. The four-link descriptive average includes Assumed estimates. All four links need repeated timing before an experimental average is meaningful.</p></article></div>
+  <blockquote id="limitation"></blockquote><p class="small-note">The quoted guide paragraph’s identical-conditions statement does not establish a direct comparison for Exp B’s unmatched runs. Restoration’s TTL-change interval is separate from outage OCRT.</p>
+  <div class="findings surface"><h3>Findings and next steps</h3><p>The recorded R1–R2 observation is ≈26 s for RIP versus ≈7 s for OSPF, a 73.08% shorter OCRT in these single runs. Both protocols returned traffic through the alternate ring path and later restored the preferred route. The four-link descriptive means, including three Assumed links, are 25.75 s and 7.00 s; the reduction of these means is 72.82%, with no statistical claim.</p><p>Next: individually time every link, repeat each scenario at least ten times, capture full ping summaries and automated timestamps, and compare controlled matched runs on emulated or real routers. The dashboard is an evidence presentation and illustrative replay; its animated paths are not simulation evidence.</p></div>
+  <div id="references" class="references"></div>
+</section>
+</main>
+<footer class="section-wrap"><b>F1 Team21 · BCSE308P · October 2026</b><p>Harshith Reddy V · 24BCE2479 · B.Tech Computer Science and Engineering<br>Sinchana B Kurkuri · 24BDS0352 · B.Tech Computer Science and Engineering (Data Science)</p><p>Fault-Tolerant Routing: Performance Comparison of RIP and OSPF Convergence Under Network Failures</p></footer>
+<dialog id="lightbox" aria-labelledby="lightbox-caption"><div class="lightbox-toolbar"><button id="previous-image" aria-label="Previous image">←</button><button id="next-image" aria-label="Next image">→</button><button id="close-lightbox" aria-label="Close image">✕</button></div><img id="lightbox-image" alt=""><p id="lightbox-caption"></p></dialog>
+<aside id="tour-bar" hidden><span id="tour-label"></span><button id="tour-next">Next stop →</button><button id="tour-stop">End tour</button></aside>
+</body></html>

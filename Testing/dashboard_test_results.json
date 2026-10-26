@@ -1,0 +1,694 @@
+[
+  {
+    "test": "chromium initial script execution",
+    "pass": true
+  },
+  {
+    "test": "chromium full 37-image gallery",
+    "pass": true
+  },
+  {
+    "test": "chromium navigation anchor targets",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP normal  step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP normal  step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step0 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R1\u2013R2 step2 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step0 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step0 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step1 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step1 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step2 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step2 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R2\u2013R3 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step0 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step0 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step1 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step1 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step2 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step2 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R3\u2013R4 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step0 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step0 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step1 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step1 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step2 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step2 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP link R4\u2013R1 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step0 unmatched-run disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step1 incident ring links failed",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step1 unmatched-run disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step2 incident ring links failed",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP router  step2 unmatched-run disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step0 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium RIP restore  step2 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF normal  step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF normal  step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step0 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R1\u2013R2 step2 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step0 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step0 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step1 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step1 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step2 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step2 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R2\u2013R3 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step0 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step0 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step1 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step1 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step2 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step2 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R3\u2013R4 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step0 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step0 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step1 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step1 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step1 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step2 assumed disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step2 no evidence associated",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step2 correct failed-link count",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF link R4\u2013R1 step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step0 unmatched-run disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step1 incident ring links failed",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step1 unmatched-run disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step2 incident ring links failed",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF router  step2 unmatched-run disclosure",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step0 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step0 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step0 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step1 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step1 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step2 renders",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step2 E22 excluded",
+    "pass": true
+  },
+  {
+    "test": "chromium OSPF restore  step2 recorded metric matches",
+    "pass": true
+  },
+  {
+    "test": "chromium Chart.js supplied values match CSV",
+    "pass": true
+  },
+  {
+    "test": "chromium no zero for missing OSPF OCRT",
+    "pass": true
+  },
+  {
+    "test": "chromium no zero for missing RIP restoration",
+    "pass": true
+  },
+  {
+    "test": "chromium measured-only toggle",
+    "pass": true
+  },
+  {
+    "test": "chromium mixed summary hidden with assumptions",
+    "pass": true
+  },
+  {
+    "test": "chromium mixed means labelled",
+    "pass": true
+  },
+  {
+    "test": "chromium protocol filter",
+    "pass": true
+  },
+  {
+    "test": "chromium scenario filter",
+    "pass": true
+  },
+  {
+    "test": "chromium lightbox opens",
+    "pass": true
+  },
+  {
+    "test": "chromium lightbox right-arrow",
+    "pass": true
+  },
+  {
+    "test": "chromium lightbox left-arrow",
+    "pass": true
+  },
+  {
+    "test": "chromium lightbox Escape",
+    "pass": true
+  },
+  {
+    "test": "chromium keyboard device inspector",
+    "pass": true
+  },
+  {
+    "test": "chromium reduced motion",
+    "pass": true
+  },
+  {
+    "test": "chromium presenter tour starts",
+    "pass": true
+  },
+  {
+    "test": "chromium presenter tour advances",
+    "pass": true
+  },
+  {
+    "test": "chromium dark theme",
+    "pass": true
+  },
+  {
+    "test": "chromium no page overflow 375px",
+    "pass": true
+  },
+  {
+    "test": "chromium no page overflow 768px",
+    "pass": true
+  },
+  {
+    "test": "chromium no page overflow 1440px",
+    "pass": true
+  },
+  {
+    "test": "chromium offline file reload",
+    "pass": true
+  },
+  {
+    "test": "chromium no runtime network requests",
+    "pass": true
+  },
+  {
+    "test": "chromium no failed local requests",
+    "pass": true
+  },
+  {
+    "test": "chromium no console/page errors",
+    "pass": true
+  }
+]
