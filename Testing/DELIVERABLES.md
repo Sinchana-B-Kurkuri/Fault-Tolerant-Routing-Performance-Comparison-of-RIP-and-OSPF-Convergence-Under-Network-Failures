@@ -1,6 +1,6 @@
 # Deliverable inventory
 
-All paths are relative to the repository root. This lists final files including preserved originals. Sizes/hashes are in file_inventory.csv. Also created: Testing/DELIVERABLES.md and Testing/file_inventory.csv; these two inventory files are omitted from their own hash table.
+All paths are relative to the repository root. Sizes/hashes describe the local deliverables at publication; Git can normalize text line endings. Also created: Testing/DELIVERABLES.md and Testing/file_inventory.csv; these two inventory files are omitted from their own hash table.
 
 | File | Bytes |
 | --- | --- |
@@ -83,7 +83,7 @@ All paths are relative to the repository root. This lists final files including 
 | Docs/DATA_POLICY.md | 1518 |
 | Docs/DEMO_PLAN.md | 2553 |
 | Docs/PACKET_TRACER_VERIFICATION.md | 2530 |
-| Docs/SUBMISSION_CHECKLIST.md | 2755 |
+| Docs/SUBMISSION_CHECKLIST.md | 2759 |
 | Docs/VIVA_QA.md | 8090 |
 | Presentation/F1_Team21_PPT.pptx | 424022 |
 | README.md | 13741 |
@@ -112,11 +112,12 @@ All paths are relative to the repository root. This lists final files including 
 | Testing/data_validation.txt | 6726 |
 | Testing/document_cross_checks.json | 9675 |
 | Testing/document_qa.md | 4667 |
-| Testing/git_status.txt | 191 |
+| Testing/git_status.txt | 307 |
 | Testing/os_info.json | 123 |
 | Testing/portable_package_test.json | 695 |
 | Testing/processor_info.json | 50 |
-| Testing/public_repository_access.json | 463 |
+| Testing/public_repository_access.json | 550 |
+| Testing/publication_verification.json | 1935 |
 | Testing/submission_hashes.json | 632 |
 | Testing/toc_verification.json | 3330 |
 | v1_topology_base.pkt | 59735 |

@@ -1,3 +1,5 @@
+Historical snapshot taken before the user authorized the commits and push. Use git status for the current state.
+
 ## main...origin/main
  M README.md
 ?? .gitattributes

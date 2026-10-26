@@ -6,5 +6,5 @@
   "html_url": "https://github.com/Sinchana-B-Kurkuri/Fault-Tolerant-Routing-Performance-Comparison-of-RIP-and-OSPF-Convergence-Under-Network-Failures",
   "default_branch": "main",
   "remote_main_sha": "ab5da880951401f7ab02c54cf78c1465586db711",
-  "post_push_access_check": "Pending; no push performed"
+  "post_push_access_check": "Passed: public tree and key deliverable hashes verified without authentication; see publication_verification.json"
 }

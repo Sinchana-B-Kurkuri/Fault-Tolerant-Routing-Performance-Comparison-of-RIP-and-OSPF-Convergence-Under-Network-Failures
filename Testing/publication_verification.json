@@ -1,0 +1,54 @@
+{
+  "verified_date": "2026-10-26",
+  "method": "Unauthenticated GitHub API and raw-file requests; no credentials or cookies",
+  "published_delivery_commit": "09edf5082ef606a00beae6249ef729831d773f6f",
+  "verified_remote_main_commit": "09edf5082ef606a00beae6249ef729831d773f6f",
+  "public_tree_file_count": 120,
+  "all_public_blob_ids_match_local_commit": true,
+  "public_file_checks": [
+    {
+      "path": "README.md",
+      "http_status": 200,
+      "sha256": "864384d61976115972d9fe74d19c1da5a58a52e001ef8eeee34900b244fb422e",
+      "matches_local": true,
+      "bytes": 13570
+    },
+    {
+      "path": "Dashboard/index.html",
+      "http_status": 200,
+      "sha256": "da29c776841ea0e79b07eb6bee588f9c6ba7b6913ec2602b61a34822f10a3289",
+      "matches_local": true,
+      "bytes": 17206
+    },
+    {
+      "path": "Submission/F1_Team21_Report.pdf",
+      "http_status": 200,
+      "sha256": "93d2322553e9a019603e141a9916f4face038087b622dba02e1ec1f83c7b228a",
+      "matches_local": true,
+      "bytes": 1174597
+    },
+    {
+      "path": "Submission/F1_Team21_PPT.pptx",
+      "http_status": 200,
+      "sha256": "ccba1bc5a74f2055ff3fca46acc5e75dcf4593a2a1817929abcb862b40428f12",
+      "matches_local": true,
+      "bytes": 424022
+    },
+    {
+      "path": "Submission/F1_Team21_SourceCode.zip",
+      "http_status": 200,
+      "sha256": "400a13e4bfebef5f83aece41b2679edcd916d358e2b377ee86731c3f559903dc",
+      "matches_local": true,
+      "bytes": 2244149
+    },
+    {
+      "path": "Submission/F1_Team21_Screenshots.zip",
+      "http_status": 200,
+      "sha256": "2986708f6bdf2b73a8f3399f41493020c5443ac09d3b1306e4ca1896a8eb738a",
+      "matches_local": true,
+      "bytes": 1848016
+    }
+  ],
+  "pass": true,
+  "note": "This records the verified delivery commit. A following documentation commit may record this verification without changing the verified deliverables."
+}

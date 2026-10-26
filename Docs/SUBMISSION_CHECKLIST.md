@@ -17,8 +17,8 @@
 |✔ |Per-file GitHub size below100MB |Testing/file_inventory.csv records actual sizes |
 |✘ |Faculty accepts three simulation-stage files |Organisational proposal only; confirm faculty requirement |
 |✔ |Commit/push authorization |User explicitly requested committing and pushing to the existing GitHub repository |
-|✘ |Public URL contains the new deliverables |Publication verification is recorded in Testing/publication_verification.json after the normal push |
-|✔ |Local commit plan approved |Approved series in Docs/COMMIT_PLAN.md; inspect Git history for the resulting commits |
+|✔ |Public URL contains the new deliverables |Unauthenticated GitHub tree and key-file hashes verified; see Testing/publication_verification.json |
+|✔ |Local commits created and pushed |Five delivery commits plus the publication-verification record; inspect Git history |
 |✘ |Both members rehearse and explain all parts |Confirmed split in DEMO_PLAN; use40 viva questions |
 |✘ |Similarity/plagiarism and institutional review |Original prose and cited primary sources supplied; institutional similarity result not claimed |
 |✘ |External backup |Create a backup on separate storage and verify it opens |
