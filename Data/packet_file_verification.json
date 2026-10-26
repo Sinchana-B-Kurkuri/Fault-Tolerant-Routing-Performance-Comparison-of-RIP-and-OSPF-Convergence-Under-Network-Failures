@@ -1,0 +1,381 @@
+[
+  {
+    "filename": "v1_topology_base.pkt",
+    "version": "9.0.1.0858",
+    "sha256": "25fc6ad5448cd6a1a31ad7dec66bc4093a5231fc67c05f95d24351629e4d260b",
+    "routers": [
+      {
+        "name": "R1",
+        "power": "true",
+        "protocols": [],
+        "running_startup_equal": false
+      },
+      {
+        "name": "R2",
+        "power": "true",
+        "protocols": [],
+        "running_startup_equal": false
+      },
+      {
+        "name": "R3",
+        "power": "true",
+        "protocols": [],
+        "running_startup_equal": false
+      },
+      {
+        "name": "R4",
+        "power": "true",
+        "protocols": [],
+        "running_startup_equal": false
+      }
+    ],
+    "pcs": [
+      {
+        "name": "PC1",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.1.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.1.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.1.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC2",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.2.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.2.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.2.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC3",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.3.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.3.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.3.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC4",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.4.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.4.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.4.1"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "v2_rip.pkt",
+    "version": "9.0.1.0858",
+    "sha256": "888f7aa7ed70c81b59054cd0b8e89fdedfb1a9c2d9e08cc77abfec660797a77e",
+    "routers": [
+      {
+        "name": "R1",
+        "power": "true",
+        "protocols": [
+          "router rip"
+        ],
+        "running_startup_equal": true
+      },
+      {
+        "name": "R2",
+        "power": "true",
+        "protocols": [
+          "router rip"
+        ],
+        "running_startup_equal": true
+      },
+      {
+        "name": "R3",
+        "power": "true",
+        "protocols": [
+          "router rip"
+        ],
+        "running_startup_equal": true
+      },
+      {
+        "name": "R4",
+        "power": "true",
+        "protocols": [
+          "router rip"
+        ],
+        "running_startup_equal": true
+      }
+    ],
+    "pcs": [
+      {
+        "name": "PC1",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.1.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.1.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.1.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC2",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.2.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.2.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.2.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC3",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.3.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.3.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.3.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC4",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.4.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.4.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.4.1"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "v3_ospf.pkt",
+    "version": "9.0.1.0858",
+    "sha256": "49044ec2731f86b17ad12f604c5d6f922d4c5c1b539a2161a2c9dbc27fcc2240",
+    "routers": [
+      {
+        "name": "R1",
+        "power": "true",
+        "protocols": [
+          "router ospf 1"
+        ],
+        "running_startup_equal": true
+      },
+      {
+        "name": "R2",
+        "power": "true",
+        "protocols": [
+          "router ospf 1"
+        ],
+        "running_startup_equal": true
+      },
+      {
+        "name": "R3",
+        "power": "true",
+        "protocols": [
+          "router ospf 1"
+        ],
+        "running_startup_equal": true
+      },
+      {
+        "name": "R4",
+        "power": "true",
+        "protocols": [
+          "router ospf 1"
+        ],
+        "running_startup_equal": true
+      }
+    ],
+    "pcs": [
+      {
+        "name": "PC1",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.1.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.1.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.1.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC2",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.2.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.2.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.2.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC3",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.3.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.3.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.3.1"
+          ]
+        ]
+      },
+      {
+        "name": "PC4",
+        "type": "Pc",
+        "ip_fields": [
+          [
+            "IP",
+            "192.168.4.10"
+          ],
+          [
+            "SUBNET",
+            "255.255.255.0"
+          ],
+          [
+            "PORT_GATEWAY",
+            "192.168.4.1"
+          ],
+          [
+            "GATEWAY",
+            "192.168.4.1"
+          ]
+        ]
+      }
+    ]
+  }
+]

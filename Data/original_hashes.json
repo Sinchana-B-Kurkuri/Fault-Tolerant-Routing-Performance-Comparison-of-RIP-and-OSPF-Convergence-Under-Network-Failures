@@ -1,0 +1,45 @@
+{
+  "guide": {
+    "path": "C:\\Users\\sinch\\Desktop\\CN_Project_Implementation_Guide_FINAL_Corrected.docx",
+    "bytes": 25002,
+    "sha256": "307ac8e5bfb1efce5fa67e08e066e1a80b69c3cc4a1aa388701fb6847f9861c0",
+    "image_occurrences": 0,
+    "media_files": 0
+  },
+  "template": {
+    "path": "C:\\Users\\sinch\\Desktop\\CN Lab Project (1).docx",
+    "bytes": 33526,
+    "sha256": "a8673114fc6fc97bf5d892de2e51a88381fe9b933d167d65daa807936911ae2e",
+    "image_occurrences": 1,
+    "media_files": 1
+  },
+  "evidence": {
+    "path": "C:\\Users\\sinch\\Desktop\\CNPj34.docx",
+    "bytes": 1745727,
+    "sha256": "2bb447e759d479e14489af001f837c8837893dc70f3edb0df200ffc974868732",
+    "image_occurrences": 37,
+    "media_files": 37
+  },
+  "tracked": [
+    {
+      "name": "README.md",
+      "bytes": 98,
+      "sha256": "56bc0976b1e3c42b7a677ee7a6259215ee0e16c4f2b8503508f8e650ecaa950d"
+    },
+    {
+      "name": "v1_topology_base.pkt",
+      "bytes": 59735,
+      "sha256": "25fc6ad5448cd6a1a31ad7dec66bc4093a5231fc67c05f95d24351629e4d260b"
+    },
+    {
+      "name": "v2_rip.pkt",
+      "bytes": 61453,
+      "sha256": "888f7aa7ed70c81b59054cd0b8e89fdedfb1a9c2d9e08cc77abfec660797a77e"
+    },
+    {
+      "name": "v3_ospf.pkt",
+      "bytes": 61468,
+      "sha256": "49044ec2731f86b17ad12f604c5d6f922d4c5c1b539a2161a2c9dbc27fcc2240"
+    }
+  ]
+}

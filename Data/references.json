@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "G. Malkin, \u201cRIP Version 2,\u201d RFC 2453, Nov. 1998, doi:10.17487/RFC2453.",
+    "url": "https://www.rfc-editor.org/info/rfc2453/"
+  },
+  {
+    "id": 2,
+    "title": "J. Moy, \u201cOSPF Version 2,\u201d RFC 2328, Apr. 1998, doi:10.17487/RFC2328.",
+    "url": "https://www.rfc-editor.org/info/rfc2328/"
+  },
+  {
+    "id": 3,
+    "title": "C. Hedrick, \u201cRouting Information Protocol,\u201d RFC 1058, Jun. 1988, doi:10.17487/RFC1058.",
+    "url": "https://www.rfc-editor.org/info/rfc1058/"
+  },
+  {
+    "id": 4,
+    "title": "Cisco, \u201cCisco IOS IP Routing: RIP Command Reference: RIP Commands,\u201d online documentation, accessed Oct.26,2026.",
+    "url": "https://www.cisco.com/c/en/us/td/docs/ios/iproute_rip/command/reference/irr_book/irr_rip.html"
+  },
+  {
+    "id": 5,
+    "title": "Cisco, \u201cIP Routing: OSPF Configuration Guide, Cisco IOS XE Release 2,\u201d online documentation, accessed Oct.26,2026.",
+    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-2/iro-xe-2-book.pdf"
+  }
+]

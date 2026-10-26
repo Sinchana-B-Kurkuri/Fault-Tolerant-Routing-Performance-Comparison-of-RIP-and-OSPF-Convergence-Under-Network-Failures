@@ -1,0 +1,6 @@
+statistic,scope,rip_seconds,ospf_seconds,difference_seconds,reduction_percent,ratio,data_status,label
+per_link_comparison,R1–R2,26,7,19,73.0769,3.7143,MEASURED_SINGLE_RUN,Measured – single run
+per_link_comparison,R2–R3,24,6,18,75.0,4.0,ASSUMED,Assumed (estimated – not measured)
+per_link_comparison,R3–R4,28,8,20,71.4286,3.5,ASSUMED,Assumed (estimated – not measured)
+per_link_comparison,R4–R1,25,7,18,72.0,3.5714,ASSUMED,Assumed (estimated – not measured)
+arithmetic_mean_across_supplied_links,All four links,25.75,7.0,18.75,72.8155,3.6786,MIXED_MEASURED_ASSUMED,Illustrative four-link summary: one measured link and three Assumed estimates; not a repeated-trial average
