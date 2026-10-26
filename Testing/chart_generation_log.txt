@@ -1,0 +1,8 @@
+PASS 01_link_failure.png (220dpi) and .svg
+PASS 02_link_ratios.png (220dpi) and .svg
+PASS 03_router_failure.png (220dpi) and .svg
+PASS 04_route_metrics.png (220dpi) and .svg
+PASS 05_restoration.png (220dpi) and .svg
+PASS 06_evidence_coverage.png (220dpi) and .svg
+DESCRIPTIVE MIXED INPUTS (three Assumed links): mean RIP=25.75s, OSPF=7.00s; reduction of means=72.8155%; not a trial mean.
+PASS no SD, error bars, significance claims or fabricated loss figures generated.

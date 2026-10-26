@@ -1,0 +1,171 @@
+PASS 12 supplied experiment/protocol rows
+PASS 37 original screenshot records
+PASS Evidence file exists: E01
+PASS Lossless image hash: E01
+PASS Evidence file exists: E02
+PASS Lossless image hash: E02
+PASS Evidence file exists: E03
+PASS Lossless image hash: E03
+PASS Evidence file exists: E04
+PASS Lossless image hash: E04
+PASS Evidence file exists: E05
+PASS Lossless image hash: E05
+PASS Evidence file exists: E06
+PASS Lossless image hash: E06
+PASS Evidence file exists: E07
+PASS Lossless image hash: E07
+PASS Evidence file exists: E08
+PASS Lossless image hash: E08
+PASS Evidence file exists: E09
+PASS Lossless image hash: E09
+PASS Evidence file exists: E10
+PASS Lossless image hash: E10
+PASS Evidence file exists: E11
+PASS Lossless image hash: E11
+PASS Evidence file exists: E12
+PASS Lossless image hash: E12
+PASS Evidence file exists: E13
+PASS Lossless image hash: E13
+PASS Evidence file exists: E14
+PASS Lossless image hash: E14
+PASS Evidence file exists: E15
+PASS Lossless image hash: E15
+PASS Evidence file exists: E16
+PASS Lossless image hash: E16
+PASS Evidence file exists: E17
+PASS Lossless image hash: E17
+PASS Evidence file exists: E18
+PASS Lossless image hash: E18
+PASS Evidence file exists: E19
+PASS Lossless image hash: E19
+PASS Evidence file exists: E20
+PASS Lossless image hash: E20
+PASS Evidence file exists: E21
+PASS Lossless image hash: E21
+PASS Evidence file exists: E22
+PASS Lossless image hash: E22
+PASS Evidence file exists: E23
+PASS Lossless image hash: E23
+PASS Evidence file exists: E24
+PASS Lossless image hash: E24
+PASS Evidence file exists: E25
+PASS Lossless image hash: E25
+PASS Evidence file exists: E26
+PASS Lossless image hash: E26
+PASS Evidence file exists: E27
+PASS Lossless image hash: E27
+PASS Evidence file exists: E28
+PASS Lossless image hash: E28
+PASS Evidence file exists: E29
+PASS Lossless image hash: E29
+PASS Evidence file exists: E30
+PASS Lossless image hash: E30
+PASS Evidence file exists: E31
+PASS Lossless image hash: E31
+PASS Evidence file exists: E32
+PASS Lossless image hash: E32
+PASS Evidence file exists: E33
+PASS Lossless image hash: E33
+PASS Evidence file exists: E34
+PASS Lossless image hash: E34
+PASS Evidence file exists: E35
+PASS Lossless image hash: E35
+PASS Evidence file exists: E36
+PASS Lossless image hash: E36
+PASS Evidence file exists: E37
+PASS Lossless image hash: E37
+PASS Valid evidence references: A RIP
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Measured row is single run with behavioural evidence
+PASS No inferential aggregate fields
+PASS Valid evidence references: A OSPF
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Measured row is single run with behavioural evidence
+PASS No inferential aggregate fields
+PASS Valid evidence references: A2 RIP
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Assumed row has no evidence or timed run
+PASS Assumed row explicitly labelled
+PASS No inferential aggregate fields
+PASS Valid evidence references: A2 OSPF
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Assumed row has no evidence or timed run
+PASS Assumed row explicitly labelled
+PASS No inferential aggregate fields
+PASS Valid evidence references: A3 RIP
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Assumed row has no evidence or timed run
+PASS Assumed row explicitly labelled
+PASS No inferential aggregate fields
+PASS Valid evidence references: A3 OSPF
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Assumed row has no evidence or timed run
+PASS Assumed row explicitly labelled
+PASS No inferential aggregate fields
+PASS Valid evidence references: A4 RIP
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Assumed row has no evidence or timed run
+PASS Assumed row explicitly labelled
+PASS No inferential aggregate fields
+PASS Valid evidence references: A4 OSPF
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Assumed row has no evidence or timed run
+PASS Assumed row explicitly labelled
+PASS No inferential aggregate fields
+PASS Valid evidence references: B RIP
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Measured row is single run with behavioural evidence
+PASS No inferential aggregate fields
+PASS Valid evidence references: C RIP
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Missing numeric timing is blank, not zero
+PASS No inferential aggregate fields
+PASS Valid evidence references: B OSPF
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Missing numeric timing is blank, not zero
+PASS No inferential aggregate fields
+PASS Valid evidence references: C OSPF
+PASS Unconfirmed E22 excluded from measurement proof
+PASS Measured row is single run with behavioural evidence
+PASS No inferential aggregate fields
+PASS Supplied timing preserved: R1–R2 RIP
+PASS Supplied timing preserved: R1–R2 OSPF
+PASS Supplied timing preserved: R2–R3 RIP
+PASS Supplied timing preserved: R2–R3 OSPF
+PASS Supplied timing preserved: R3–R4 RIP
+PASS Supplied timing preserved: R3–R4 OSPF
+PASS Supplied timing preserved: R4–R1 RIP
+PASS Supplied timing preserved: R4–R1 OSPF
+PASS CSV and JSON mirrors agree exactly
+PASS Dashboard canonical experimental values equal results.json
+PASS Derived reduction arithmetic: R1–R2
+PASS Derived reduction arithmetic: R2–R3
+PASS Assumed/mixed arithmetic explicitly labelled
+PASS Derived reduction arithmetic: R3–R4
+PASS Assumed/mixed arithmetic explicitly labelled
+PASS Derived reduction arithmetic: R4–R1
+PASS Assumed/mixed arithmetic explicitly labelled
+PASS Derived reduction arithmetic: All four links
+PASS Assumed/mixed arithmetic explicitly labelled
+PASS Four-case descriptive means use every supplied value
+PASS Dashboard derived statistics match summary CSV
+PASS E22 remains flagged
+PASS No remote runtime resource/fetch in index.html
+PASS No remote runtime resource/fetch in style.css
+PASS No remote runtime resource/fetch in app.js
+PASS Original PKT unchanged: v1_topology_base.pkt
+PASS Original PKT unchanged: v2_rip.pkt
+PASS Original PKT unchanged: v3_ospf.pkt
+PASS Original DOCX unchanged: guide
+PASS Original DOCX unchanged: template
+PASS Original DOCX unchanged: evidence
+PASS Saved protocol configuration verified: R1 RIP
+PASS Saved protocol configuration verified: R2 RIP
+PASS Saved protocol configuration verified: R3 RIP
+PASS Saved protocol configuration verified: R4 RIP
+PASS Saved protocol configuration verified: R1 OSPF
+PASS Saved protocol configuration verified: R2 OSPF
+PASS Saved protocol configuration verified: R3 OSPF
+PASS Saved protocol configuration verified: R4 OSPF
+
+169 passed; 0 failed.

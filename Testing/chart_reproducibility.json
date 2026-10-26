@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "method": "Two successive fresh figure regenerations from unchanged CSV; all PNG and SVG SHA-256 hashes identical.",
+  "files": {
+    "01_link_failure.png": "df978f817717cd96f20da9cd0c11a0aeff200f4977cd0d81af211240c1ba9eef",
+    "01_link_failure.svg": "d0cf25e7b7231b6621af1540c07d817f0d78608d9ba67cc217a55f66fa007f69",
+    "02_link_ratios.png": "b685ba17b6eea33af0138170fdd03b81a84252171f0891392ea375b8a2375737",
+    "02_link_ratios.svg": "01d84e315a3d99bd25b621263a28c327c4020f1f235c24a87f4d843fb9602333",
+    "03_router_failure.png": "c9a2efd3a0335f63c8ad1f6cbb31b3c6ee7293bf4ccd9bdf426c887f9c77ebc5",
+    "03_router_failure.svg": "263e0821a726eb3b12d2240f9173292cd6ade26e02e3c978d83601c8119bc9d4",
+    "04_route_metrics.png": "b22529f2abc7219bb09010f78684d2735ea6a1a5f8f714e83f1175ee02e56341",
+    "04_route_metrics.svg": "b77c8a62cc2d7ba40e882a9eb76933dec30c70494f73d186cbf720f8a07d6b87",
+    "05_restoration.png": "18048b2672e546aa11bccaddad3c59dd2b9b795eab289a8594ffb91aa58a4074",
+    "05_restoration.svg": "08a61291aa8466587f8a8561000247895728fcd93b88c0aaf24f68e45cf89f70",
+    "06_evidence_coverage.png": "27abaf4a5e7c2d01da1247681c9a385ce8431ebd80d05da4660f828bd37ce76a",
+    "06_evidence_coverage.svg": "b5e9ed128e9a65797d0d83c53f3207bb47b60ed374ae0e951f92e16803bc332e"
+  }
+}
