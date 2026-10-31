@@ -5,3 +5,10 @@ venv/
 node_modules/
 .DS_Store
 ~$*
+.pytest_cache/
+.env
+*.tmp
+*.bak
+*.zip
+CN_Project_Build_*/
+CN_Project_Audit_*/

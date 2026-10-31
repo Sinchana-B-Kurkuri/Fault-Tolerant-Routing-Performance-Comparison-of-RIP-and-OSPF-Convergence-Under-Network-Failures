@@ -1,0 +1,519 @@
+{
+  "verification_date": "2026-10-31",
+  "scope": "Folder organisation, final-document consolidation, unchanged implementation and teammate-package portability",
+  "implementation_preservation": {
+    "pass": true,
+    "protected_file_count": 77,
+    "files": [
+      {
+        "bytes": 17206,
+        "sha256": "da29c776841ea0e79b07eb6bee588f9c6ba7b6913ec2602b61a34822f10a3289",
+        "path": "Dashboard/index.html"
+      },
+      {
+        "bytes": 10657,
+        "sha256": "26c1aea9e65bcb2e1975c3478f86e3cb3a17155404481c17c5e82b37b1e209f9",
+        "path": "Dashboard/assets/screenshots/ospf/baseline/ospf_baseline_neighbors.png"
+      },
+      {
+        "bytes": 65386,
+        "sha256": "639fd3b4f39bd4d9c8ac45b4c0cb32328effdf55b9eab55497e13c0ef3fb2bd4",
+        "path": "Dashboard/assets/screenshots/ospf/baseline/ospf_baseline_R1.png"
+      },
+      {
+        "bytes": 48188,
+        "sha256": "08061042ee9a3a4a23ce47de972182033346dd643099d69395bf3a6da29170d0",
+        "path": "Dashboard/assets/screenshots/ospf/baseline/ospf_baseline_R2.png"
+      },
+      {
+        "bytes": 48911,
+        "sha256": "0003d630835fbc0884c55ba56ab84546f4c24db3b2651260d1fcabac3138f893",
+        "path": "Dashboard/assets/screenshots/ospf/baseline/ospf_baseline_R3.png"
+      },
+      {
+        "bytes": 48269,
+        "sha256": "c407d34a42f0777c955f504c69a4c3ef5f2ce79184b07c7e014876fc4067e099",
+        "path": "Dashboard/assets/screenshots/ospf/baseline/ospf_baseline_R4.png"
+      },
+      {
+        "bytes": 14724,
+        "sha256": "064abdc60cbad6ba48973462235022f057a74c79498c114df4bc7a96c7933db5",
+        "path": "Dashboard/assets/screenshots/ospf/link_failure/ospf_A_01_route_before.png"
+      },
+      {
+        "bytes": 23050,
+        "sha256": "62faacfea22df944d826f61c1b65147a6a097f052f93b535993a21d4e995e993",
+        "path": "Dashboard/assets/screenshots/ospf/link_failure/ospf_A_02_shutdown.png"
+      },
+      {
+        "bytes": 25075,
+        "sha256": "006c5a4f2fc9b7287a1ac88d406c3428168d9466592e96439bee4f6dd1d40c79",
+        "path": "Dashboard/assets/screenshots/ospf/link_failure/ospf_A_03_ping.png"
+      },
+      {
+        "bytes": 14510,
+        "sha256": "20fd64fcd13d51df2162b6d384496bdf38468ce4579877eb2133a83d2e39c1dc",
+        "path": "Dashboard/assets/screenshots/ospf/link_failure/ospf_A_04_route_after.png"
+      },
+      {
+        "bytes": 48770,
+        "sha256": "f9383ebe1aea74e7f4f493d354d3c1c235f2f883824c737a766ddc0ce0f79d80",
+        "path": "Dashboard/assets/screenshots/ospf/link_failure/ospf_A_05_link_down.png"
+      },
+      {
+        "bytes": 14548,
+        "sha256": "fa069a6cc246f12f0b397c28a86556045b716f6903d35eed42c127d74a64f68f",
+        "path": "Dashboard/assets/screenshots/ospf/restoration/ospf_C_01_route_before.png"
+      },
+      {
+        "bytes": 22045,
+        "sha256": "8dae43c9b423a5183c07b6aa86a43972a1d7de2e2802a1c708ee7393ea1b2598",
+        "path": "Dashboard/assets/screenshots/ospf/restoration/ospf_C_02_shutdown.png"
+      },
+      {
+        "bytes": 13504,
+        "sha256": "659c2f1afdb8489bb1b33f88443f70f180e956f854e4b82dbbd6eb670ac30f48",
+        "path": "Dashboard/assets/screenshots/ospf/restoration/ospf_C_03_detour.png"
+      },
+      {
+        "bytes": 74830,
+        "sha256": "7e05332e50a9fafa7185b82faf54e2a1dafedafa054f17fed33df89422d2b8f2",
+        "path": "Dashboard/assets/screenshots/ospf/restoration/ospf_C_04_ttl_change.png"
+      },
+      {
+        "bytes": 13313,
+        "sha256": "8010008d431c82caeef675f4b6bdb26daa3317be14a452f3b47c6c1ab90ef426",
+        "path": "Dashboard/assets/screenshots/ospf/restoration/ospf_C_05_restored_route.png"
+      },
+      {
+        "bytes": 18313,
+        "sha256": "3009446fc064a9e8ad9c980a70f05660f2d1d882ab659bbbc9224b07c29560ae",
+        "path": "Dashboard/assets/screenshots/ospf/restoration/ospf_C_06_no_shutdown.png"
+      },
+      {
+        "bytes": 74001,
+        "sha256": "ccb919f01e7135b0701803ff09442039287efe71ae06a2b56ab127f2b6993ed6",
+        "path": "Dashboard/assets/screenshots/ospf/router_failure/ospf_B_01_ping.png"
+      },
+      {
+        "bytes": 112428,
+        "sha256": "bc567dffdd1ffb0777eda1444ba59f1ddc3e80ce9766c217938b5f629e793a59",
+        "path": "Dashboard/assets/screenshots/ospf/router_failure/ospf_B_02_power_view.png"
+      },
+      {
+        "bytes": 49568,
+        "sha256": "7915f56637c38a3744d9a09eb3b9c7e81b0337481119a4617f914a62cddb9693",
+        "path": "Dashboard/assets/screenshots/ospf/router_failure/ospf_B_03_R4_links_down.png"
+      },
+      {
+        "bytes": 15596,
+        "sha256": "655fc6156d6c95a74df96f0a01bfd6c91a6c4a00b8ad5c139b63200325328d54",
+        "path": "Dashboard/assets/screenshots/ospf/router_failure/ospf_B_04_route_after.png"
+      },
+      {
+        "bytes": 49450,
+        "sha256": "de134898f1da01ff42c81d3885a8e4e86942347441a4ee29e11bc6da13a68124",
+        "path": "Dashboard/assets/screenshots/rip/baseline/rip_baseline_R1.png"
+      },
+      {
+        "bytes": 50940,
+        "sha256": "6c8ed516080b391d6dad40ea91a60469235ff022307e30d1bd5355beb44553d3",
+        "path": "Dashboard/assets/screenshots/rip/baseline/rip_baseline_R2.png"
+      },
+      {
+        "bytes": 48489,
+        "sha256": "36a4779ec5d4dd52783076abc2865a1ae39e21d64cbb37f9889d737e7cd82c47",
+        "path": "Dashboard/assets/screenshots/rip/baseline/rip_baseline_R3.png"
+      },
+      {
+        "bytes": 49331,
+        "sha256": "eccb683f93eae44530263f52a01de7a5ea2993c7196ad58dc962451c3c630a2e",
+        "path": "Dashboard/assets/screenshots/rip/baseline/rip_baseline_R4.png"
+      },
+      {
+        "bytes": 18600,
+        "sha256": "5317c4db823e85e5dd440f718d895b462115b29929def39a9bcfd60a9a46fd12",
+        "path": "Dashboard/assets/screenshots/rip/link_failure/rip_A_01_route_before.png"
+      },
+      {
+        "bytes": 17460,
+        "sha256": "a60cacc61092abbb694c13a7706c7e8948161a498ae9fc8c770808b684aa9b68",
+        "path": "Dashboard/assets/screenshots/rip/link_failure/rip_A_02_shutdown.png"
+      },
+      {
+        "bytes": 70120,
+        "sha256": "8416d645ee3c694be25adff9560b59a1311dc2c70e9593906c81f1e55a339b94",
+        "path": "Dashboard/assets/screenshots/rip/link_failure/rip_A_03_ping.png"
+      },
+      {
+        "bytes": 15137,
+        "sha256": "8774b286272e048e1bdb4b78e1918214bd32a3ad7615f5760990d90ea5c87c6a",
+        "path": "Dashboard/assets/screenshots/rip/link_failure/rip_A_04_route_after.png"
+      },
+      {
+        "bytes": 47343,
+        "sha256": "c5309711fcfd68b17f3a2a463bb5f9e8dfa0231866dc998721135a27d8c4b739",
+        "path": "Dashboard/assets/screenshots/rip/link_failure/rip_A_05_link_down.png"
+      },
+      {
+        "bytes": 19121,
+        "sha256": "958bd265fe58aab595e778d74d85cb2c56a4400352cd7fe53077ff65d09a4dbe",
+        "path": "Dashboard/assets/screenshots/rip/restoration/rip_C_01_no_shutdown.png"
+      },
+      {
+        "bytes": 13872,
+        "sha256": "4329900991f30733555cb22d94718c9201ef81d6ba3e77fdd697af4ef99a9ce2",
+        "path": "Dashboard/assets/screenshots/rip/restoration/rip_C_02_route_restored.png"
+      },
+      {
+        "bytes": 20556,
+        "sha256": "2db4d6cfaa81522ea9652c97a5c85f7002449bf0de24ae16b6484a3299008e21",
+        "path": "Dashboard/assets/screenshots/rip/restoration/rip_unconfirmed_ping_E22.png"
+      },
+      {
+        "bytes": 89508,
+        "sha256": "19946a29ef1b474f3909e9a07065c7ce3c0c4c65659ea3baf233c994eecc064e",
+        "path": "Dashboard/assets/screenshots/rip/router_failure/rip_B_01_ping.png"
+      },
+      {
+        "bytes": 51155,
+        "sha256": "9b5c53470e6ebdfbff8a5b517974db9ccd0ee0ddca2a552ed854c5ab1a2451f5",
+        "path": "Dashboard/assets/screenshots/rip/router_failure/rip_B_02_R4_links_down.png"
+      },
+      {
+        "bytes": 15826,
+        "sha256": "ea3d2657521aaec1b5cdf703ec13ce5997219915692b5ebbf4c10fa79b6963a0",
+        "path": "Dashboard/assets/screenshots/rip/router_failure/rip_B_03_route_after.png"
+      },
+      {
+        "bytes": 112397,
+        "sha256": "881e8362fb0094108d5d2259a8a3693eb4c7b8707da271ba259a98c6bbe46e82",
+        "path": "Dashboard/assets/screenshots/rip/router_failure/rip_B_04_power_view.png"
+      },
+      {
+        "bytes": 269835,
+        "sha256": "302ad9097c3291932d1f434ba6ca3b016679cbfa5aa9c88496376fb3a702f023",
+        "path": "Dashboard/assets/screenshots/topology/topology_ring.png"
+      },
+      {
+        "bytes": 15458,
+        "sha256": "598a8488fbf90ebd378877d6035fa7560fa11c9ad5953520644c3519813b9c86",
+        "path": "Dashboard/css/style.css"
+      },
+      {
+        "bytes": 23424,
+        "sha256": "e01e71b0d83f91af9264fa6ca66ff270eb8c9cbf023cf834507e71a4867e04a4",
+        "path": "Dashboard/js/app.js"
+      },
+      {
+        "bytes": 42042,
+        "sha256": "da58a27ee8c3d976512e88767434c56a59ed9d125fa93271436a500616af0a02",
+        "path": "Dashboard/js/data.js"
+      },
+      {
+        "bytes": 206553,
+        "sha256": "c40877e88de4df7201532014e14fb707f0f07a196a4ec63e070544b80184fb00",
+        "path": "Dashboard/vendor/chart.umd.min.js"
+      },
+      {
+        "bytes": 1093,
+        "sha256": "41a84aa2caba645f966a18d9c2056b73e6d3a81d80bc0046bc0011a2634d4cce",
+        "path": "Dashboard/vendor/LICENSE.md"
+      },
+      {
+        "bytes": 177,
+        "sha256": "b90422c51242c6be9d633404468db5f44832d44876a00260a58818eb0867e371",
+        "path": "Dashboard/vendor/README.md"
+      },
+      {
+        "bytes": 11933,
+        "sha256": "eb4c43adf921d829e72f475c53fc68b1356f90e24dd923ff2bc110575429bf3a",
+        "path": "Data/evidence_manifest.csv"
+      },
+      {
+        "bytes": 1388,
+        "sha256": "404668c4a86c27b397292c05ad24e4919d55897a5af9236681e593a0974682fd",
+        "path": "Data/original_hashes.json"
+      },
+      {
+        "bytes": 7466,
+        "sha256": "faf353877ec48b99aa1bf31bb5d9aaa597ee9aba9c98899e93921be6430547d0",
+        "path": "Data/packet_file_verification.json"
+      },
+      {
+        "bytes": 1104,
+        "sha256": "a4adaf61d0ee4f07d60e9abe7b727cbb0860497dea217b720b9d0ec68f923d1a",
+        "path": "Data/references.json"
+      },
+      {
+        "bytes": 3240,
+        "sha256": "6a457b6ae5dee08a545bbbdc48f58422b136fdd90a2ec286f6eff7c37d8f4749",
+        "path": "Data/results.csv"
+      },
+      {
+        "bytes": 7958,
+        "sha256": "e0f29b6295bcaa9799253eb49f1344019d36d19318e660ac1264437ac567e9fa",
+        "path": "Data/results.json"
+      },
+      {
+        "bytes": 694,
+        "sha256": "b1de62d1e59138defee8a79615e68a325a3095b4393ac2222166ba23ffe5d8c0",
+        "path": "Data/summary_statistics.csv"
+      },
+      {
+        "bytes": 172758,
+        "sha256": "df978f817717cd96f20da9cd0c11a0aeff200f4977cd0d81af211240c1ba9eef",
+        "path": "Data/charts/01_link_failure.png"
+      },
+      {
+        "bytes": 68061,
+        "sha256": "d0cf25e7b7231b6621af1540c07d817f0d78608d9ba67cc217a55f66fa007f69",
+        "path": "Data/charts/01_link_failure.svg"
+      },
+      {
+        "bytes": 119576,
+        "sha256": "b685ba17b6eea33af0138170fdd03b81a84252171f0891392ea375b8a2375737",
+        "path": "Data/charts/02_link_ratios.png"
+      },
+      {
+        "bytes": 44822,
+        "sha256": "01d84e315a3d99bd25b621263a28c327c4020f1f235c24a87f4d843fb9602333",
+        "path": "Data/charts/02_link_ratios.svg"
+      },
+      {
+        "bytes": 76760,
+        "sha256": "c9a2efd3a0335f63c8ad1f6cbb31b3c6ee7293bf4ccd9bdf426c887f9c77ebc5",
+        "path": "Data/charts/03_router_failure.png"
+      },
+      {
+        "bytes": 50423,
+        "sha256": "263e0821a726eb3b12d2240f9173292cd6ade26e02e3c978d83601c8119bc9d4",
+        "path": "Data/charts/03_router_failure.svg"
+      },
+      {
+        "bytes": 68395,
+        "sha256": "b22529f2abc7219bb09010f78684d2735ea6a1a5f8f714e83f1175ee02e56341",
+        "path": "Data/charts/04_route_metrics.png"
+      },
+      {
+        "bytes": 56384,
+        "sha256": "b77c8a62cc2d7ba40e882a9eb76933dec30c70494f73d186cbf720f8a07d6b87",
+        "path": "Data/charts/04_route_metrics.svg"
+      },
+      {
+        "bytes": 89810,
+        "sha256": "18048b2672e546aa11bccaddad3c59dd2b9b795eab289a8594ffb91aa58a4074",
+        "path": "Data/charts/05_restoration.png"
+      },
+      {
+        "bytes": 54607,
+        "sha256": "08a61291aa8466587f8a8561000247895728fcd93b88c0aaf24f68e45cf89f70",
+        "path": "Data/charts/05_restoration.svg"
+      },
+      {
+        "bytes": 107956,
+        "sha256": "27abaf4a5e7c2d01da1247681c9a385ce8431ebd80d05da4660f828bd37ce76a",
+        "path": "Data/charts/06_evidence_coverage.png"
+      },
+      {
+        "bytes": 62282,
+        "sha256": "b5e9ed128e9a65797d0d83c53f3207bb47b60ed374ae0e951f92e16803bc332e",
+        "path": "Data/charts/06_evidence_coverage.svg"
+      },
+      {
+        "bytes": 7135,
+        "sha256": "c10da539a061c64932f10c0c35ee51c7580881fa345ea300b6f1d25bf64b2654",
+        "path": "Scripts/generate_charts.py"
+      },
+      {
+        "bytes": 62,
+        "sha256": "02ac8c2459e2a26936e6a766d99f7868390d68f5ecaf4acd1c8fc3f068d4e975",
+        "path": "Scripts/requirements.txt"
+      },
+      {
+        "bytes": 5396,
+        "sha256": "40cc1f095984ecaac1fbc7cc23c7efffdecd530218195c51386c6e7b7c5ff6a2",
+        "path": "Scripts/validate_data.py"
+      },
+      {
+        "bytes": 1096,
+        "sha256": "733e72dbe9f24297a0e6f8bdaaf3bd064e8d5545910af6f1ad309aebfc5b34b8",
+        "path": "Configs/R1_OSPF_pkt_running-config.txt"
+      },
+      {
+        "bytes": 1060,
+        "sha256": "7772620f7a30b4bbe6b3d5b5619e4d48d3f5d3c70a467cdd3ebe1f8a691e1d55",
+        "path": "Configs/R1_RIP_pkt_running-config.txt"
+      },
+      {
+        "bytes": 1096,
+        "sha256": "3561b732b7dcefac3d38ffb99b9ae13368996007f6e38c56dc50ee9c032fac38",
+        "path": "Configs/R2_OSPF_pkt_running-config.txt"
+      },
+      {
+        "bytes": 1060,
+        "sha256": "a40f8bd266fa28ff9d7eb5a6133ca62f26f206d4240b03f34aeb53cd937a13ae",
+        "path": "Configs/R2_RIP_pkt_running-config.txt"
+      },
+      {
+        "bytes": 1096,
+        "sha256": "4677275522cbd4cfeee20665e1b33d97251c117063b43f3a8df7a43aeca7fb95",
+        "path": "Configs/R3_OSPF_pkt_running-config.txt"
+      },
+      {
+        "bytes": 1060,
+        "sha256": "e4b7e3cd7e0397a461fe42e255cbc4a594c3f9026031218937ffa9d1195fc8dd",
+        "path": "Configs/R3_RIP_pkt_running-config.txt"
+      },
+      {
+        "bytes": 1096,
+        "sha256": "4cb7081c80f20dd0e82f0727dd2513fdc97174aff80d86c9ff7e0e576125792e",
+        "path": "Configs/R4_OSPF_pkt_running-config.txt"
+      },
+      {
+        "bytes": 1060,
+        "sha256": "419e937492b00fcdff59a97c847a5391178fbe6e29441097b23cfc31fc43f92b",
+        "path": "Configs/R4_RIP_pkt_running-config.txt"
+      },
+      {
+        "bytes": 59735,
+        "sha256": "25fc6ad5448cd6a1a31ad7dec66bc4093a5231fc67c05f95d24351629e4d260b",
+        "path": "v1_topology_base.pkt"
+      },
+      {
+        "bytes": 61453,
+        "sha256": "888f7aa7ed70c81b59054cd0b8e89fdedfb1a9c2d9e08cc77abfec660797a77e",
+        "path": "v2_rip.pkt"
+      },
+      {
+        "bytes": 61468,
+        "sha256": "49044ec2731f86b17ad12f604c5d6f922d4c5c1b539a2161a2c9dbc27fcc2240",
+        "path": "v3_ospf.pkt"
+      }
+    ]
+  },
+  "data_validation": {
+    "pass": true,
+    "local_checks_passed": 169,
+    "portable_repository_checks": 166,
+    "note": "Three optional additional checks run when the externally supplied source Word documents exist on the machine."
+  },
+  "browser_validation": {
+    "pass": true,
+    "chromium_checks_passed": 173,
+    "firefox": "Skipped: executable launch failed with spawn UNKNOWN"
+  },
+  "organization_and_document_validation": {
+    "pass": true,
+    "checks_passed": 218,
+    "report_pages": 31,
+    "verification_document_pages": 31,
+    "presentation_slides": 12,
+    "numeric_tokens_and_embedded_media_unchanged": true,
+    "certificate_unchanged": true,
+    "toc_references_checked": 35,
+    "visual_review": "All pages rasterized. The 59 unchanged pages match previously reviewed render pixels exactly; the three changed pages were inspected after folder-reference edits. Presentation binary unchanged."
+  },
+  "portable_zip": {
+    "pass": true,
+    "archive_filename": "CN_Project_Team21_Final_2026-10-31.zip",
+    "extraction_validation_exit_code": 0,
+    "candidate_payload_files": 100,
+    "payload_hashes_match": true,
+    "excludes_git_history_and_build_files": true,
+    "browser_smoke_checks": [
+      {
+        "check": "localhost HTTP 200",
+        "pass": true
+      },
+      {
+        "check": "localhost seven charts render",
+        "pass": true
+      },
+      {
+        "check": "localhost all 37 original images load",
+        "pass": true
+      },
+      {
+        "check": "localhost restoration replay and qualification",
+        "pass": true
+      },
+      {
+        "check": "localhost assumed link has no fabricated evidence",
+        "pass": true
+      },
+      {
+        "check": "localhost measured-only chart toggle",
+        "pass": true
+      },
+      {
+        "check": "localhost mobile layout",
+        "pass": true
+      },
+      {
+        "check": "localhost no script errors or external runtime dependencies",
+        "pass": true
+      },
+      {
+        "check": "extracted_zip seven charts render",
+        "pass": true
+      },
+      {
+        "check": "extracted_zip all 37 original images load",
+        "pass": true
+      },
+      {
+        "check": "extracted_zip restoration replay and qualification",
+        "pass": true
+      },
+      {
+        "check": "extracted_zip assumed link has no fabricated evidence",
+        "pass": true
+      },
+      {
+        "check": "extracted_zip measured-only chart toggle",
+        "pass": true
+      },
+      {
+        "check": "extracted_zip mobile layout",
+        "pass": true
+      },
+      {
+        "check": "extracted_zip no script errors or external runtime dependencies",
+        "pass": true
+      }
+    ]
+  },
+  "historical_public_repository_verification": {
+    "checked_revision": "607d25cd6d82a21db044b1a55362187f990b9c19",
+    "checked_date": "2026-10-31",
+    "note": "The verification document retains the public repository screenshot from before local folder consolidation. Publishing the current organised commit is left to the user."
+  },
+  "final_documents": [
+    {
+      "path": "Final_Documents/F1_Team21_Final_Project_Presentation.pptx",
+      "bytes": 424022,
+      "sha256": "ccba1bc5a74f2055ff3fca46acc5e75dcf4593a2a1817929abcb862b40428f12"
+    },
+    {
+      "path": "Final_Documents/F1_Team21_Final_Project_Report.docx",
+      "bytes": 1191064,
+      "sha256": "bb00ccc367268bfa0bcfc48441ea1d408f15a4e6495858a93d43bf538d4f6a11"
+    },
+    {
+      "path": "Final_Documents/F1_Team21_Final_Project_Report.pdf",
+      "bytes": 1174245,
+      "sha256": "e3b846b67237c809616fd25ff5ec1aae9d2f26c6adef05dd9e6b7343cb9e8aa4"
+    },
+    {
+      "path": "Final_Documents/F1_Team21_GitHub_and_Working_Model_Verification.docx",
+      "bytes": 2272158,
+      "sha256": "e2e7260bd5b81ec6cbd920c198aefb011900ca6040ea94bbf74a2dedc862099e"
+    }
+  ],
+  "limits": [
+    "No Packet Tracer experiment was rerun.",
+    "Three additional link timing pairs are assumed estimates.",
+    "E22 remains unconfirmed and excluded as restoration proof."
+  ]
+}
