@@ -489,31 +489,37 @@
     "checked_date": "2026-10-31",
     "note": "The verification document retains the public repository screenshot from before local folder consolidation. Publishing the current organised commit is left to the user."
   },
-  "final_documents": [
-    {
-      "path": "Final_Documents/F1_Team21_Final_Project_Presentation.pptx",
-      "bytes": 424022,
-      "sha256": "ccba1bc5a74f2055ff3fca46acc5e75dcf4593a2a1817929abcb862b40428f12"
-    },
-    {
-      "path": "Final_Documents/F1_Team21_Final_Project_Report.docx",
-      "bytes": 1191064,
-      "sha256": "bb00ccc367268bfa0bcfc48441ea1d408f15a4e6495858a93d43bf538d4f6a11"
-    },
-    {
-      "path": "Final_Documents/F1_Team21_Final_Project_Report.pdf",
-      "bytes": 1174245,
-      "sha256": "e3b846b67237c809616fd25ff5ec1aae9d2f26c6adef05dd9e6b7343cb9e8aa4"
-    },
-    {
-      "path": "Final_Documents/F1_Team21_GitHub_and_Working_Model_Verification.docx",
-      "bytes": 2272158,
-      "sha256": "e2e7260bd5b81ec6cbd920c198aefb011900ca6040ea94bbf74a2dedc862099e"
-    }
-  ],
   "limits": [
     "No Packet Tracer experiment was rerun.",
     "Three additional link timing pairs are assumed estimates.",
     "E22 remains unconfirmed and excluded as restoration proof."
-  ]
+  ],
+  "documents": [
+    {
+      "path": "Documents/F1_Team21_Final_Project_Presentation.pptx",
+      "bytes": 424022,
+      "sha256": "ccba1bc5a74f2055ff3fca46acc5e75dcf4593a2a1817929abcb862b40428f12"
+    },
+    {
+      "path": "Documents/F1_Team21_Final_Project_Report.docx",
+      "bytes": 1191064,
+      "sha256": "bb00ccc367268bfa0bcfc48441ea1d408f15a4e6495858a93d43bf538d4f6a11"
+    },
+    {
+      "path": "Documents/F1_Team21_GitHub_and_Working_Model_Verification.docx",
+      "bytes": 2272244,
+      "sha256": "2b81bb3341cc276ce9891d9e97035e1c5b704faa2cdec677960cda4ac24bf23a"
+    }
+  ],
+  "folder_reference_update": {
+    "folder": "Documents",
+    "pass": true,
+    "changes": "README links and the working model verification document use the renamed folder. Project report and presentation contents are unchanged.",
+    "verification_document_pages": 31,
+    "changed_rendered_pages": [
+      2
+    ],
+    "embedded_evidence_unchanged": true,
+    "report_pdf": "Not included in the current Documents folder; its obsolete README link was removed."
+  }
 }

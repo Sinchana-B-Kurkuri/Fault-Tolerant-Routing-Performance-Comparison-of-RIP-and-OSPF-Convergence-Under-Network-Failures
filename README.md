@@ -47,14 +47,13 @@ If Windows uses the Python launcher, use `py -m http.server 8765 --bind 127.0.0.
 
 ## Final report and presentation
 
-All final documents are together in **[Final_Documents](Final_Documents/)**:
+All final documents are together in **[Documents](Documents/)**:
 
 | File | Contents |
 | --- | --- |
-| [Project report — Word](Final_Documents/F1_Team21_Final_Project_Report.docx) | Final editable report, official certificate and appendices |
-| [Project report — PDF](Final_Documents/F1_Team21_Final_Project_Report.pdf) | Submission and printing copy of the same final report |
-| [Project presentation](Final_Documents/F1_Team21_Final_Project_Presentation.pptx) | Editable 12-slide presentation with charts, tables and speaker notes |
-| [GitHub and working model verification](Final_Documents/F1_Team21_GitHub_and_Working_Model_Verification.docx) | Repository URL, execution steps, screenshot walkthrough and evidence descriptions |
+| [Project report — Word](Documents/F1_Team21_Final_Project_Report.docx) | Final editable report, official certificate and appendices |
+| [Project presentation](Documents/F1_Team21_Final_Project_Presentation.pptx) | Editable 12-slide presentation with charts, tables and speaker notes |
+| [GitHub and working model verification](Documents/F1_Team21_GitHub_and_Working_Model_Verification.docx) | Repository URL, execution steps, screenshot walkthrough and evidence descriptions |
 
 ## Project structure
 
@@ -67,7 +66,7 @@ CN Project/
 │   └── vendor/                 Chart.js and its licence
 ├── Configs/                    Eight saved router configuration exports
 ├── Data/                       Results, evidence manifest and final charts
-├── Final_Documents/             Final report, presentation and verification document
+├── Documents/                  Final report, presentation and verification document
 ├── Scripts/                    Analysis, data validation and browser checks
 ├── Testing/                    Dashboard screenshots and verification results
 ├── v1_topology_base.pkt         Original topology stage
